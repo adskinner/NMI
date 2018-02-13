@@ -1,3 +1,11 @@
+@font-face {
+    font-family:'TekoMed';
+    src:url('fonts/teko/Teko-Medium.ttf;')
+}
+@font-face {
+    font-family:'PtMono';
+    src:url('fonts/pt-mono.regular.ttf')
+}
 .hashtag{
   position: absolute;
   top: 2.5%;
@@ -11,6 +19,28 @@
 .reveal pre {
   box-shadow: 0 0 0;
 }
-h1 {
-    line-height:1.1
+h1, h2, h3 {
+    line-height:1.1;
+    font-family: 'TekoMed';
+    color:#fff;
+}
+body, p {
+    font-family:'PtMono'!important;
+    
+}
+p {
+    color:#fff;
+    font-size:28px!important;
+}
+.reveal .state-background {
+    background:linear-gradient(to bottom right, #190061 , #3500d3)!important;
+}
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+    border-right-color:deeppink;
+}
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+    border-left-color:deeppink;
+}
+.reveal .progress span {
+    background:deeppink;
 }
