@@ -1,0 +1,16 @@
+.hashtag{
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+}
+.reveal section img.no-border{
+  border: 0;
+  box-shadow: 0 0 0;
+}
+
+.reveal pre {
+  box-shadow: 0 0 0;
+}
+h1 {
+    line-height:1.1
+}
